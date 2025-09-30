@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Vite demo for ERR_HTTP2_PROTOCOL_ERROR</title>
+</head>
+
+<body class="syntax-dark syntax-bright">
+  <script>
+    console.log('Starting');
+    console.time('Load');
+    globalThis.start = new Date();
+  </script>
+  <script type="module">
+    import './src/all.js';
+
+    console.timeEnd('Load');
+
+
+    let div = document.createElement('div');
+    div.textContent = 'loaded';
+
+    document.body.appendChild(div);
+  </script>
+
+</body>
+
+</html>
