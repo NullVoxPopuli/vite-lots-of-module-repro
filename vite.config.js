@@ -4,7 +4,8 @@ import { h2proxy } from './http2-proxy.js';
 
 export default defineConfig(() => ({
   plugins: [
-    h2proxy(),
+    // Not needed to reproduce the issue
+    // h2proxy(),
     mkcert({
       savePath: 'node_modules/.vite-plugin-mkcert/',
     }),
