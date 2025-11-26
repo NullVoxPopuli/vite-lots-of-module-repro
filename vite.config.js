@@ -10,4 +10,14 @@ export default defineConfig(() => ({
       savePath: 'node_modules/.vite-plugin-mkcert/',
     }),
   ],
+  esbuild: false,
+  build: {
+    esbuild: false,
+  },
+  optimizeDeps: {
+    // noDiscovery: true,
+    include: [
+      './src/all.js',
+    ]
+  },
 }));

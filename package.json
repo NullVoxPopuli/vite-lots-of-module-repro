@@ -16,5 +16,22 @@
     "http2-proxy": "^5.0.53",
     "vite": "^7.1.7",
     "vite-plugin-mkcert": "^1.17.8"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.28.5",
+    "chart.js": "^4.5.1",
+    "codemirror": "^6.0.2",
+    "d3": "^7.9.0",
+    "d3-force": "^3.0.0",
+    "echarts": "^6.0.0",
+    "ember-source": "^6.9.0",
+    "highcharts": "^12.4.0",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "mermaid": "^11.12.1",
+    "monaco": "^1.201704190613.0",
+    "react": "^19.2.0",
+    "recharts": "^3.5.0",
+    "vue": "^3.5.25"
   }
 }

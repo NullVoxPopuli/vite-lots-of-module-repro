@@ -1,1 +1,15 @@
-export default { value: 9646 }
+export default { value: 9646 };
+import 'lodash';
+import 'd3';
+import '@babel/standalone';
+import 'react';
+import 'vue';
+import 'jquery';
+import 'chart.js';
+import 'd3-force';
+import 'echarts';
+import 'highcharts';
+import 'mermaid';
+import 'recharts';
+import 'codemirror';
+import 'monaco/build/vs/editor/editor.main.js';
