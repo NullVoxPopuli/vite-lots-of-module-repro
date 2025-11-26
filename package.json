@@ -14,8 +14,8 @@
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "http2-proxy": "^5.0.53",
-    "vite": "^7.1.7",
-    "vite-plugin-mkcert": "^1.17.8"
+    "vite": "^7.2.4",
+    "vite-plugin-mkcert": "^1.17.9"
   },
   "dependencies": {
     "@babel/standalone": "^7.28.5",
